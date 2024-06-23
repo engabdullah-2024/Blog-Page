@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    font-family: DM sans;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.header i{
+    display: none;
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.header span{
+    color: #A27B5C;
+}
+.orderBtn{
+    background-color: #A27B5C ;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    border:none;
+}
+.SignBtn{
+    background-color: transparent;
+    color: #A27B5C;
+    border: 3px #A27B5C solid;
+    padding: 17px 40px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.main h1 {
+    text-align: center;
+    font-size: 80px;
+
+}
+.main p{
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bold;
+    
+    margin:  50px;
+}
+.main{
+    background-color: rgb(241, 236, 191);
+}
+.main img{
+    margin-left: 100px;
+   width: 500px;
+   height: 500px;
+
+
+    
+}
+.main h2,h6{
+   margin-left: 130px;
+   margin-top: 20px;
+}
+.main h6{
+    color: gray;
+    font-size: 12px;
+}
+.blog-parent img{
+width: 200px;
+}
+.blog-parent{
+    display: flex;
+    gap: 30px;
+    margin: 20px 130px;
+    border-top: 1px black solid;
+    
+    padding: 20px;
+}
+
+
+
+
+
+footer{
+   background-color: #A27B5C; 
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+.footer{
+    height: 400px;
+background-color: black;
+color: white;
+
+}
+.Address {
+    text-align: center;
+    border-bottom: 3px white solid;
+    margin: 20px 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+@media screen and (max-width : 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .header i{
+        font-size: 60px;
+        display: block;
+    }
+    .header{
+        padding: 20px;
+    }
+    .main h1 {
+        font-size: 50px;
+    }
+    .main p{
+        font-size: 24px;
+    }
+    .main img{
+        width: 500px;
+        height: 500px;
+        margin-top: 12px;
+        margin-left: 30px;
+
+    }
+    .blog-parent{
+        flex-direction: column;
+        margin: 0;
+    }
+    .blog-parent h1{
+        font-size: 20px;
+    }
+    .blog-parent img{
+        width: 100%;
+    }
+    .main h2{
+        font-size: 18px;
+        margin: 10px 30px;
+    }
+    .main h6{
+        margin: 10px 30px;
+    }
+}
